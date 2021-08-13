@@ -1,0 +1,27 @@
+.photo-grids {
+  display: grid;
+  margin: 0 16px 64px;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .photo-grids {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 24px 65px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grids {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 48px 75px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grids {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 48px 80px;
+  }
+}

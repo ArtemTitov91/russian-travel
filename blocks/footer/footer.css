@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    margin: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: 0 48px;
+  }
+}

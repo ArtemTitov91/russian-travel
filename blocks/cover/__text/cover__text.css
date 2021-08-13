@@ -1,0 +1,6 @@
+.cover__text {
+  border: 1px solid red;
+  z-index: 4;
+  height: 100%;
+  opacity: 1;
+}
